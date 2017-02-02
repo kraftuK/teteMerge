@@ -18,5 +18,27 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+
+        findViewById(R.id.btn_go_melkshake).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MelkshakeActivity.start(getApplication());
+
+                          }
+        });
+
+        findViewById(R.id.buttonIlyich).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                IlyichActivity.start(MainActivity.this);
+
+            }
+
+
+
+
+
+        });
+
     }
 }

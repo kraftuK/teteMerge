@@ -16,6 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".MelkshakeActivity" />
+
+        <activity android:name=".IlyichActivity"
+            android:screenOrientation="portrait"/>
+
         <activity android:name=".PictureActivity"
             android:screenOrientation="portrait"/>
     </application>
