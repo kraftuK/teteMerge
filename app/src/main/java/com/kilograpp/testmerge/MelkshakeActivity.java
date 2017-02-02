@@ -26,6 +26,13 @@ public class MelkshakeActivity extends Activity {
                     findViewById(R.id.ib_image_container).setVisibility(View.GONE);
                     isImageVisible = false;
                 } else {
+
+
+
+
+
+
+
                     findViewById(R.id.ib_image_container).setVisibility(View.VISIBLE);
                     isImageVisible = true;
                 }
