@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">TestMerge</string>
+
+    <string name="ilyich_text">Ilyich text</string>
 </resources>
