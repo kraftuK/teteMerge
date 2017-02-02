@@ -18,6 +18,9 @@
 
         <activity android:name=".MelkshakeActivity" />
 
+        <activity android:name=".IlyichActivity"
+            android:screenOrientation="portrait"/>
+
     </application>
 
 </manifest>
