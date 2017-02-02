@@ -1,7 +1,8 @@
 package com.kilograpp.testmerge;
 
-import android.support.v7.app.AppCompatActivity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
@@ -13,12 +14,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //Тут переход на экран
-
-                //Тут переход на экран
-
-                //Тут переход на экран
-
+                startActivity(new Intent(MainActivity.this, PictureActivity.class));
             }
         });
 
