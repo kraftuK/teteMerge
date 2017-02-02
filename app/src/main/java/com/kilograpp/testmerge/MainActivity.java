@@ -14,7 +14,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //Тут переход на экран
-                //TT
             }
         });
 
